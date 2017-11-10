@@ -33,7 +33,8 @@ function currentLine(katzDeli){
     for (let i = 0; i < katzDeli.length; i++){
       var number = +i + +1;
 
-      numberLine.push(" " + number + ". " + katzDeli[i]);
+      //numberLine.push(" " + number + ". " + katzDeli[i]);
+      numberLine.push(` ${number}. ${katzDeli[i]}`)
     }
 
 
